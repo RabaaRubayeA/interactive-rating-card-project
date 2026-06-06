@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange:  hsl(25, 97%, 53%);
+    --white: hsl(0, 100%, 100%);
+    --grey-500: hsl(217, 12%, 63%);
+    --grey-800: hsl(213, 19%, 23%);
+    --grey-900: hsl(213, 19%, 18%);
+    --grey-950: hsl(216, 12%, 8%);
+}
+
+body{
+    width: 100vw;
+    max-height: 100vh;
+    background: var(--grey-950);
+    font-family: "Overpass", sans-serif;
+    padding: 2rem;
+
+}
+
+.container{
+    /* width: ; */
+    display: flex;
+    flex-direction: column;
+    background: var(--grey-900);
+    padding: 3rem 2.5rem;
+    border-radius: 18px;
+    overflow: hidden;
+
+}
+
+/* .hidden{
+    display: none;
+} */
+
+.star-icon{
+    width: 4rem;
+    height: 4rem;
+    background: var(--grey-800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+}
+
+.rating-content-container{
+    display: flex;
+    flex-direction: column;
+}
+.title, .message{
+    /* font-family: "Overpass", sans-serif; */
+    color: var(--white);
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.text{
+    color: var(--grey-500);
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.rating-container{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0;
+    justify-content: space-between;
+
+}
+
+.rating{
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: 50%;
+    background: var(--grey-800);
+    color:var(--grey-500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    background-color: var(--orange);
+    font-family: "Overpass", sans-serif;
+    padding: 1rem;
+    border: none;
+    border-radius: 25px;
+}
+
+/* here starts the Thank you container */
+
+.thank-u-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.thank-u-logo{
+    margin-bottom: 2rem;
+}
+
+.rating-result{
+    background: var(--grey-800);
+    color: var(--orange);
+    padding: .875rem 2rem;
+    border: none;
+    border-radius: 25px;
+}
+
+.thank-u{
+    /* font-family: "Overpass", sans-serif; */
+    color: var(--white);
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.thank-u-text{
+    color: var(--grey-500);
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.active{
+    background: var(--white);
+    color: var(--grey-900);
+}
+
+/* ********************************* */
+
+@media (min-width: 650px){
+
+    body{
+        min-width: 600px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        
+    }
+    .container{
+        width: 600px;
+        
+    }
+
+    .rating{
+        cursor: pointer;
+        transition: 0.3s ease ;
+    }
+
+    .rating:hover{
+        background-color: var(--orange);
+        color: var(--grey-900);
+    }
+
+    .rating:focus-visible{
+        background-color: var(--white);
+        color: var(--grey-900);
+    }
+
+    .submit{
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .submit:hover{
+        background-color: var(--white);
+        color: var(--grey-900);
+    }
+
+}
