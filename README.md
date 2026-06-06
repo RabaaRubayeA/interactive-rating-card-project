@@ -17,7 +17,7 @@ Building this project helped me gain more confidence working with JavaScript and
 Live Demo
 [Coming Soon]
 Repository
-[GitHub Repository URL]  Coming Soon
+[(https://github.com/RabaaRubayeA/interactive-rating-card-project.git)]
 Author
 •	Frontend Mentor - [https://www.frontendmentor.io/profile/RabaaRubayeA]
 •	GitHub - [Your GitHub Profile]  Coming Soon
