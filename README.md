@@ -15,9 +15,9 @@ What I Learned
 
 Building this project helped me gain more confidence working with JavaScript and the DOM. I learned how to use `event.target` and `closest()` to handle user interactions, manage the selected rating as application state, dynamically update the UI with `classList.add()` and `classList.remove()`, and show or hide elements by applying CSS classes based on user actions.
 Live Demo
-[Coming Soon]
+[https://joyful-crisp-8343f6.netlify.app/]
 Repository
 [(https://github.com/RabaaRubayeA/interactive-rating-card-project.git)]
 Author
 •	Frontend Mentor - [https://www.frontendmentor.io/profile/RabaaRubayeA]
-•	GitHub - [Your GitHub Profile]  Coming Soon
+•	GitHub - [(https://github.com/RabaaRubayeA)]
